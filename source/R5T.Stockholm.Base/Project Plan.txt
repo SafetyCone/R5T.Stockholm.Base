@@ -1,0 +1,4 @@
+R5T.Stockholm.Base - An IStreamSerializer<T> service definition base library for the Stockholm project.
+
+Goals
+
