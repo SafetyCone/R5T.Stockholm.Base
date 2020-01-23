@@ -1,4 +1,10 @@
 R5T.Stockholm.Base - An IStreamSerializer<T> service definition base library for the Stockholm project.
 
-Goals
+
+# Prior Work
+
+Based on work in: https://github.com/MinexAutomation/R5T.NetStandard.IO.Serialization
+
+
+# Goals
 
