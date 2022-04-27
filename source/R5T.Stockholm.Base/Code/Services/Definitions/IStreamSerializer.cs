@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 
+using R5T.T0064;
+
 
 namespace R5T.Stockholm
 {
@@ -12,7 +14,8 @@ namespace R5T.Stockholm
     /// Note to implementers: The input streams should be left open!
     /// </remarks>
     /// <typeparam name="T">The type to be de/serialized.</typeparam>
-    public interface IStreamSerializer<T>
+    [ServiceDefinitionMarker]
+    public interface IStreamSerializer<T> : IServiceDefinition
     {
         /// <summary>
         /// Deserializes a <typeparamref name="T"/> instance from a stream.
